@@ -20,8 +20,9 @@ flowchart LR
     B --> C["LaTeX"]:::format
     B --> D["HTML"]:::format
     B --> F["TXT"]:::format
+    B --> G["TEI-Publisher-App"]:::output
     C --> E["PDF"]:::output
-
+    F --> H["Topic-modelling / Quantitative analysis"]:::output
     classDef source fill:#E8DFF5,stroke:#8B5CF6,stroke-width:1px,color:#3B0764
     classDef core fill:#FDE68A,stroke:#B45309,stroke-width:2px,color:#78350F
     classDef format fill:#BFDBFE,stroke:#1D4ED8,stroke-width:1px,color:#1E3A8A
