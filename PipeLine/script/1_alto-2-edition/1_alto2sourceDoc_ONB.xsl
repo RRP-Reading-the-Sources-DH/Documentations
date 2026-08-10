@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Source XSL : Simon Gabay ; adaptation : Sonia Solfrini -->
+<!-- Source XSL : Simon Gabay ; adaptation : Sonia Solfrini; adaptation 2.0 Floriane GOY -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -16,26 +16,7 @@
     
     <!-- Changer les variables suivantes si nécessaire -->
     <!-- Les variables permettent de reconstituer l'url des documents -->
-    
-    <!-- for e-rara   -->
-    <!--
-    <xsl:variable name="document">Hyperius_1-Tim_C1-6</xsl:variable>
-    <xsl:variable name="folderName">doc_1</xsl:variable>
-    <xsl:variable name="iiif-domain">iiif:</xsl:variable>
-    <xsl:variable name="serveur">https://www.e-rara.ch/</xsl:variable>
-    <xsl:variable name="iiif-name">i3f/v20/</xsl:variable>
-    <xsl:variable name="endfile">/full/0/default.jpg</xsl:variable>-->
-   
-    
-    <!--for mdz-->  
-    <!--
-    <xsl:variable name="document">Calvin_Rom_C1-16</xsl:variable>
-    <xsl:variable name="folderName">doc_1</xsl:variable>
-    <xsl:variable name="iiif-domain">iiif:</xsl:variable>
-    <xsl:variable name="serveur">https://api.digitale-sammlungen.de/iiif/</xsl:variable>
-    <xsl:variable name="iiif-name">image/v2/</xsl:variable>
-    <xsl:variable name="endfile">/full/0/default.jpg</xsl:variable>-->
-    
+        
     <!-- for ONB -->
     
     <xsl:variable name="document">Bugenhagen_Rom_C1-16</xsl:variable>
@@ -49,21 +30,19 @@
     <!-- Changer le "path" si nécessaire : '/Users/sonia/Desktop/SETAF_ALTO2TEI/pipeline/data_alto/' -->
            
         <!--<xsl:variable name="xmlDocuments" select="collection(concat('/Users/sonia/Desktop/SETAF_ALTO2TEI/pipeline/data_alto/', $folderName, '/?select=?*.xml;recurse=yes'))"/>-->
-    <xsl:variable name="xmlDocuments" select="collection(concat('file:/home/floriane/Documents/16thExegesisDH/PipeLine/data/', $folderName, '/?select=?*.xml;recurse=yes'))"/>
+    <xsl:variable name="xmlDocuments" select="collection(concat('file:/home/floriane/Documents/RRP-Reading-the-Sources-DH/Documentations/PipeLine/data', $folderName, '/?select=?*.xml;recurse=yes'))"/>
         
-        
-        
-        <xsl:template match="/" >
+         <xsl:template match="/" >
             <xsl:processing-instruction name="xml-model">
-                <xsl:text>href="file:/home/floriane/Documents/16thExegesisDH/PipeLineThm/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0</xsl:text>
+                <xsl:text>href="file:/home/floriane/Documents/RRP-Reading-the-Sources-DH/Documentations/PipeLine/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0</xsl:text>
             </xsl:processing-instruction>
-            <?xml-model href="file:/home/floriane/Documents/16thExegesisDH/PipeLineThm/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+            <?xml-model href="file:/home/floriane/Documents/RRP-Reading-the-Sources-DH/Documentations/PipeLine/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
             <xsl:processing-instruction name="xml-model">
-            <xsl:text>href="https://raw.githubusercontent.com/16thExegesisDH/PipeLineThm/refs/heads/main/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
+            <xsl:text>href="https://raw.githubusercontent.com/RRP-Reading-the-Sources-DH/Documentations/refs/heads/main/PipeLine/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
             <!--<xsl:text>href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>-->
         </xsl:processing-instruction>
             <xsl:processing-instruction name="xml-model">
-            <xsl:text>href="https://raw.githubusercontent.com/16thExegesisDH/PipeLineThm/refs/heads/main/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" </xsl:text>
+            <xsl:text>href="https://raw.githubusercontent.com/RRP-Reading-the-Sources-DH/Documentations/refs/heads/main/PipeLine/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" </xsl:text>
             <!--<xsl:text>href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>-->
         </xsl:processing-instruction>
         
