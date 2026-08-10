@@ -1,6 +1,4 @@
-# HTR_Paul_corpus
-
-![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg)
+# Guideline for Segmentation and Transcription : 
 
 # Table of Contents
 
@@ -47,8 +45,8 @@ Ariane Pinche, Thibault Clérice, Alix Chagué, Jean-Baptiste Camps, Malamatenia
 ## Special Cases
 
 * Special cases are documented in the examples below. The relevant letters or signs are encoded in **Junicode** and added to the [_exegesis_ keyboard](keyboard/exegesis.json).
-* Greek text is fully transcribed and edited without preserving any abbreviations or ligatures.
-* Hebrew letters may appear in the data but are not corrected as of now (19.02.2025).
+* **Greek**, when corrected, is edited without preserving any abbreviations or ligatures. In most cases, it is just the raw computer transcription, which contains many errors.
+* **Hebrew** letters may appear in the data but are not corrected.
 
 ## Tools for Building the Transcription
 
