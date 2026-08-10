@@ -1,6 +1,6 @@
 # Guideline for Segmentation and Transcription : 
 
-# Table of Contents
+## Table of Contents
 
 [I. Guideline for Segmentation](#i-guideline-for-segmentation)  
 [II. Guideline for Transcription](#ii-guideline-for-transcription)  
