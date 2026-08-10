@@ -1,4 +1,3 @@
-
 # Documentation 
 
 - [Workflow](#workflow)
@@ -7,8 +6,12 @@
 - [Guidelines](#guidelines)
   - [I. Segmentation](#i-segmentation)
   - [II. Transcription](#ii-transcription)
-- [Documentation](#documentation)
-- [Project Timeline](#project-timeline)
+- [Quantitative Analysis](#quantitative-analysis)
+- [Project Development (2023–2026)](#project-development-2023-2026)
+  - [I. Project Summary (PDF)](#i-project-summary-pdf)
+  - [II. Project Timeline](#ii-project-timeline)
+  - [III. Development Phases](#iii-development-phases)
+
 
 ## Workflow
 
@@ -44,7 +47,7 @@ The complete pipeline and all scripts are described and available in the followi
 
 ### II. Web Application: TEI Publisher
 
-Planned for automne 2026.
+Planned for autumn 2026.
 * App-data : [Reading-the-Sources-App](https://github.com/RRP-Reading-the-Sources-DH/Reading-the-Sources-App)
 ---
 
@@ -83,7 +86,14 @@ Examples of specific cases in our corpus are available **[here](https://github.c
 
 ---
 
-## Documentation
+## Quantitative Analysis
+
+- content to add ...
+
+## Project Development (2023–2026)
+
+### I. Project Summary (PDF)
+
 [This repository](https://github.com/RRP-Reading-the-Sources-DH/Documentations) includes the project documentation, notebooks, and scripts.
 
 | Category | Content |
@@ -97,7 +107,7 @@ Examples of specific cases in our corpus are available **[here](https://github.c
 
 ---
 
-## Project Timeline
+### II. Project Timeline
 
 ```mermaid
 gantt
@@ -121,7 +131,11 @@ gantt
 - **Step 2 (2024–2026): 1 Timothy Exegesis Project** — corpus development, CLTK lemmatization, topic modelling, layout analysis model training, Corpus B.
 - **Step 3 (2026): Digital Library** — corpus consolidation, expansion of Corpus C, web deployment via TEI Publisher.
 
-### 📚 2023–2024: HTR Lambertus Prototype
+---
+
+### III. Development Phases
+
+#### 1. HTR Lambertus Prototype (2023–2024)
 
 **Handwritten Text Recognition for early modern Latin texts**
 
@@ -135,7 +149,7 @@ gantt
 
 ---
 
-### 📖 2024–2026: 1 Timothy Exegesis Project
+#### 2. 1 Timothy Exegesis Project (2024–2026)
 
 **Corpus development for the First Letter to Timothy**
 
@@ -154,7 +168,7 @@ gantt
 
 ---
 
-### 🌐 2026: Digital Library
+#### 3. Digital Library (2026)
 
 **Corpus consolidation and web deployment**
 
