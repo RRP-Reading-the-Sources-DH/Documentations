@@ -1,0 +1,175 @@
+{
+    "version": "0.1",
+    "name": "exegesis",
+    "author": "Floriane",
+    "characters": [
+        {
+            "row": 0,
+            "column": 0,
+            "character": "q",
+            "legend": "Latin small letter et with the shapped semi-colon",
+            "keyboard_code": "U+0071 + Junicode"
+        },
+        {
+            "row": 0,
+            "column": 1,
+            "character": "ſ",
+            "legend": "Long S",
+            "keyboard_code": "U+017F"
+        },
+        {
+            "row": 0,
+            "column": 2,
+            "character": "¬",
+            "keyboard_code": "U+00AC"
+        },
+        {
+            "row": 0,
+            "column": 3,
+            "character": "æ",
+            "legend": "ligature ae",
+            "keyboard_code": "U+00E6"
+        },
+        {
+            "row": 0,
+            "column": 4,
+            "character": "❧",
+            "legend": "fleuron",
+            "keyboard_code": "U+2767"
+        },
+          {
+            "row": 0,
+            "column": 5,
+            "character": "́",
+            "legend": "fleuron",
+            "keyboard_code": "U+2767"
+        },
+        {
+            "row": 1,
+            "column": 2,
+            "character": "",
+            "legend": "shapped semi-colon",
+            "keyboard_code": "Junicode (F1AC)"
+        },
+        {
+            "row": 1,
+            "column": 3,
+            "character": "ꝙ",
+            "legend": "Q with diagonal stroke",
+            "keyboard_code": "U+A759"
+        },
+        {
+            "row": 2,
+            "column": 1,
+            "character": "q́",
+            "legend": "latin small letter Q ligated with final and accute accent",
+            "keyboard_code": "MUFI 00E8BF"
+        },
+        {
+            "row": 2,
+            "column": 2,
+            "character": "·",
+            "legend": "middle dot",
+            "keyboard_code": "U+00B7"
+        },
+        {
+            "row": 2,
+            "column": 3,
+            "character": "đ",
+            "legend": "d with a stroke",
+            "keyboard_code": "U+0111"            
+        },
+        {
+            "row": 2,
+            "column": 4,
+            "character": "ꝗ̃",
+            "legend": "q with a stroke",
+            "keyboard_code": "Junicode"  
+        },
+        {
+            "row": 3,
+            "column": 1,
+            "character": "̃",
+            "legend": "cumque abbreviation",
+            "keyboard_code": "Junicode (00E8BF)"  
+        },
+        {
+            "row": 3,
+            "column": 2,
+            "character": "",
+            "legend": "latin small letter Q ligated with final et",
+            "keyboard_code": "Junicode (00E8BF)"  
+        },
+        {
+            "row": 3,
+            "column": 3,
+            "character": "̃",
+            "legend": "tilde horizontal",
+            "keyboard_code": "Junicode"    
+        },
+        {
+            "row": 3,
+            "column": 4,
+            "character": "t̃",
+            "legend": "tilde horizontal combining with t",
+            "keyboard_code": "Junicode (000303) + t Unicode"
+        },
+        { "row": 1,
+            "column": 4,
+            "character": " ꝶ",
+            "legend": "r with a stroke",
+            "keyboard_code": "Junicode (A776) "
+       },    
+       { "row": 2,
+            "column": 4,
+            "character": "˒",
+            "legend": "modifier letter right half ring",
+            "keyboard_code": "MUFI UTF-16 (02D2) "
+       } ,
+        { "row": 3,
+            "column": 4,
+            "character": "¶",
+            "legend": "pied de mouche",
+            "keyboard_code": "U+00B6 "
+       },  
+       { "row": 4,
+            "column": 4,
+            "character": "",
+            "legend": " latin small lettre Q with stroke through descender and tilde ＆qbardestilde; abreviation quam/quan",
+            "keyboard_code": "00E68B"
+       },
+       { "row": 4,
+            "column": 6,
+            "character": "ᛘ",
+            "legend": "runic lettre use for hyphen that does not extist on the page but necessary to the xml",
+            "keyboard_code": "0016D8"
+       },
+       { "row": 1,
+            "column": 5,
+            "character": "⁋",
+            "legend": "reversed pilcrow",
+            "keyboard_code": "U+204B "
+        } , 
+         { "row": 2,
+            "column": 5,
+            "character": "",
+            "legend": "paragraphus mark",
+            "keyboard_code": "Junicode : 00F1E1"
+        },
+        {"row": 3,
+            "column": 5,
+            "character": "‟",
+            "legend": " doubble high reversed",
+            "keyboard_code": "Junicode : 00201F"
+        },
+         {"row": 4,
+            "column": 5,
+            "character": "„",
+            "legend": " doubble high reversed low",
+            "keyboard_code": "Junicode : 00201F"
+        }  
+
+    ]
+}
+
+ 

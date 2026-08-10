@@ -30,7 +30,7 @@ flowchart LR
 ```
 
 The complete pipeline and all scripts are described and available in the following repository:
-**[Workflow Repository – PipeLineThm](https://github.com/RRP-Reading-the-Sources-DH/PipeLineThm)**
+**[Workflow Repository – PipeLineThm](https://github.com/RRP-Reading-the-Sources-DH/Documentations/tree/main/PipeLine)**
 
 ##### Further explanations and examples
 
@@ -44,8 +44,8 @@ The complete pipeline and all scripts are described and available in the followi
 
 ### II. Web Application: TEI Publisher
 
-Planned for summer 2026.
-
+Planned for automne 2026.
+* App-data : [Reading-the-Sources-App](https://github.com/RRP-Reading-the-Sources-DH/Reading-the-Sources-App)
 ---
 
 ## Guidelines
