@@ -23,9 +23,6 @@
 
         Le préfixe retenu est : 3 premières lettres de l'auteur + "_" +
         la référence biblique, ex. "Ano_1-Tim".
-
-        Peut aussi être fourni explicitement par l'appelant (paramètre
-        "prefix"), auquel cas ce calcul automatique est ignoré.
     -->
     <xsl:param name="prefix" as="xs:string" select="
         let $rootId := /*/@xml:id/string(),

@@ -10,15 +10,15 @@
     <!-- remmettre en place la déclaration effacée dans le script python -->
     <xsl:template match="/" >
         <xsl:processing-instruction name="xml-model">
-                <xsl:text>href="file:/home/floriane/Documents/16thExegesisDH/PipeLineThm/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0</xsl:text>
+                <xsl:text>href="file:/home/floriane/Documents/RRP-Reading-the-Sources-DH/Documentations/PipeLine/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0</xsl:text>
             </xsl:processing-instruction>
-        <?xml-model href="file:/home/floriane/Documents/16thExegesisDH/PipeLineThm/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="file:/home/floriane/Documents/RRP-Reading-the-Sources-DH/Documentations/PipeLine/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
         <xsl:processing-instruction name="xml-model">
-            <xsl:text>href="https://raw.githubusercontent.com/16thExegesisDH/PipeLineThm/refs/heads/main/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
+            <xsl:text>href="https://raw.githubusercontent.com/RRP-Reading-the-Sources-DH/Documentations/refs/heads/main/PipeLine/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
             <!--<xsl:text>href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>-->
         </xsl:processing-instruction>
         <xsl:processing-instruction name="xml-model">
-            <xsl:text>href="https://raw.githubusercontent.com/16thExegesisDH/PipeLineThm/refs/heads/main/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" </xsl:text>
+            <xsl:text>href="https://raw.githubusercontent.com/RRP-Reading-the-Sources-DH/Documentations/refs/heads/main/PipeLine/schema/out/odd-exegesis.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>
             <!--<xsl:text>href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>-->
         </xsl:processing-instruction>
    <xsl:apply-templates/>
