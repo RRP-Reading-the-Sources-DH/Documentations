@@ -94,7 +94,7 @@ Examples of specific cases in our corpus are available **[here](https://github.c
 
 ### I. Project Summary (PDF)
 
-[This repository](https://github.com/RRP-Reading-the-Sources-DH/Documentations/Project-Summary) includes the project documentation, notebooks, and scripts.
+[This repository](https://github.com/RRP-Reading-the-Sources-DH/Documentations/tree/main/Project-Summary) includes the project documentation, notebooks, and scripts.
 
 | Category | Content |
 |----------|---------|
