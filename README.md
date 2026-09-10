@@ -98,9 +98,10 @@ Examples of specific cases in our corpus are available **[here](https://github.c
 
 | Category | Content |
 |----------|---------|
-| 📄 Documents | [Project Presentation (May 2024)](https://github.com/RRP-Reading-the-Sources-DH/Documentations/blob/main/IHR_pr%C3%A9sentation_Projet.pdf) |
-| 📄 Documents | [Project Working Process (April 2025)](https://github.com/RRP-Reading-the-Sources-DH/Documentations/blob/main/Projet_wk.pdf) |
-| 📄 Documents | [Project Results (March 2026)](link) |
+| 📄 Documents | [Project Presentation (May 2024)](https://github.com/RRP-Reading-the-Sources-DH/Documentations/blob/main/Project-Summary/Pres_Goy_2024_Exposer_interpretes.pdf) |
+| 📄 Documents | [Project Working Process (April 2025)](https://github.com/RRP-Reading-the-Sources-DH/Documentations/blob/main/Project-Summary/Pres_Goy_2025_decoding_Timothy.pdf) |
+| 📄 Documents | [Project Results (March 2026)](https://github.com/RRP-Reading-the-Sources-DH/Documentations/blob/main/Project-Summary/Pres_Goy_2026_donnees_et_modeles.pdf) |
+| 📄 Documents | [Project Results (Septembre 2026)](https://github.com/RRP-Reading-the-Sources-DH/Documentations/blob/main/Project-Summary/Pres_Goy_2026_website-demonstation-final.pdf) |
 | 📰 Article | Digital Architecture — *Humanistica*: [Données et modèles pour le traitement des documents en néolatin: le cas Lambert Daneau](link) |
 | 💻 Notebooks | Distant Reading · Lemmatization · LatinCy · Cleaning |
 | ⚙️ Script | Data processing |
